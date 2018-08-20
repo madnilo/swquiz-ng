@@ -1,4 +1,5 @@
 export class People {
+	avatar: string;
     name: string;
 	height: number;
 	mass: number;
