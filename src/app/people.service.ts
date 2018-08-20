@@ -7,7 +7,7 @@ export interface Result{
   count: number,
   next: string,
   previous: string,
-  result: People[],
+  results: People[],
 }
 
 @Injectable({

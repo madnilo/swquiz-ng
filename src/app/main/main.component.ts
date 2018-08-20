@@ -15,6 +15,12 @@ export class MainComponent implements OnInit {
   people: People[];
 
   ngOnInit() {
+    this.getPeople();
+  }
+
+  getPeople(): void{
+    this.pplService.getPeople()
+      .subscribe(res => {this.people = res.body.results; console.log(res.body.results);});
   }
 
 }
