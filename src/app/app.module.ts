@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { DeckComponent } from './deck/deck.component';
 import { CardComponent } from './card/card.component';
+import { TimerComponent } from './timer/timer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     DeckComponent,
-    CardComponent
+    CardComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
