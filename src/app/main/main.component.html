@@ -1,4 +1,7 @@
-<p *ngFor="let person of people">
-  {{ person.name }}
-  <img [src]="person.avatar" />
-</p>
+<div class="deck">
+  <div class="card" *ngFor="let person of people">
+    <div class="avatar">
+      <img class="avatar__img" [src]="person.avatar" />
+    </div>
+  </div>
+</div>
